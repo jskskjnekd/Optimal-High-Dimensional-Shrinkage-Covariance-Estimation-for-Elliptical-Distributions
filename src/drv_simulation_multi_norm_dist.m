@@ -17,7 +17,7 @@ varrho = 0.4;
 
 for i=1:length(c_inv)
     n = floor(p*c_inv(i));
-    NMSE_list(i,1) = simulate_mv_t_dist(p, n, varrho);
+    NMSE_list(i,1) = simulate_mv_n_dist(p, n, varrho);
 end
 
 

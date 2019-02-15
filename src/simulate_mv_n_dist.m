@@ -1,4 +1,4 @@
-function [NMSE] = simulate_mv_t_dist(p, n, varrho)
+function [NMSE] = simulate_mv_n_dist(p, n, varrho)
 %
 %  p:  number of variables
 %  n:  number of observations
