@@ -25,6 +25,8 @@ if (nargin ~= 4) || (not(isscalar(p))) || (not(isscalar(n))) || (p < 1) || ...
     help genrndmvnorm, return
 end
 
-T = chol(Sigma); Xtem = randn(n,p)*T; X = Xtem + ones(n,1)*Mu;
+T = chol(Sigma); 
+Xtem = randn(n,p)*T; 
+X = Xtem + ones(n,1)*Mu;
 
 
