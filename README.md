@@ -1,4 +1,4 @@
-# Optimal-High-Dimensional-Shrinkage-Covariance-Estimation-for-Elliptical-Distributions
+# Optimal High-Dimensional Shrinkage Covariance Estimation for Elliptical Distributions
 
 
 
@@ -8,8 +8,10 @@
 
 
 
+## Structure
 
+### `src/drv_simulation_multi_norm_dist.m`
 
-
+Simulation of random variables from a multivariate t distribution. The covariance matrix is described as __Section V: AR(1) covariance matrix__.
 
 
